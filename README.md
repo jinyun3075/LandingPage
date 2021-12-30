@@ -5,6 +5,6 @@
 * [결과](https://jinyun3075.github.io/LandingPage/)
 ## 기능
 * 모달 <br/>
-![img](modal.jpg)
+![img](modal.png)
 * media tap <br/>
-![img](tap.jpg)
+![img](tap.png)
