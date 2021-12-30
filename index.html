@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/landing.css">
 </head>
@@ -12,6 +16,15 @@
   <div class="index">
     <h1 class="sr-only">landingpage</h1>
     <header class="idx-header">
+      <div class="menu-tap">
+        <img id="tap-close" src="img/arrow-right.svg" alt="">
+        <ul class="tap-list">
+          <li>Home</li>
+          <li>About</li>
+          <li>Support</li>
+          <button>Download</button>
+        </ul>
+      </div>
         <h2 class="sr-only">nav</h2>
         <nav class="container">
           <img src="img/head/Logo-fin.svg" alt="HODU로고">
@@ -20,6 +33,7 @@
             <li>About</li>
             <li>Support</li>
             <button class="nav-btn">Download</button>
+            <img src="img/menu.svg" alt="" id="tap-open">
           </ul>
         </nav>
     </header>
@@ -44,7 +58,7 @@
           <h4 class="sr-only">설명1</h4>
           <img src="img/card/img_4.png" alt="고양이사진 2">
           <div class="bot-one-cont">
-            <p class="bot-one-tit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus non deserunt nostrum</p>
+            <p class="bot-one-tit">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="bot-one-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, necessitatibus?</p>
           </div>
         </article>
@@ -72,21 +86,35 @@
               <input type="text" class="inp-txt" placeholder="Enter your e-mail address">
               <button class="inp-btn">Subscribe</button>
             </article>
+            <button class="inp-btn">Subscribe</button>
           </section>
         </article>
       </section>
     </main>
+    <img src="img/backgr/img_5.png" alt="" class="backgr">
     <footer class="idx-footer">
       <div class="container">
         <img src="img/head/Logo-fin.svg" alt="HODU로고" class="fot-logo">
         <ul class="sns-list">
-          <li class="sns-blog"></li>
-          <li class="sns-insta"></li>
-          <li class="sns-facebook"></li>
-          <li class="sns-youtube"></li>
+          <li class="sns-blog"><img src="img/sns-icon/blog.png" alt=""></li>
+          <li class="sns-insta"><img src="img/sns-icon/insta.png" alt=""></li>
+          <li class="sns-facebook"><img src="img/sns-icon/facebook.png" alt=""></li>
+          <li class="sns-youtube"><img src="img/sns-icon/youtube.png" alt=""></li>
         </ul>
       </div>
     </footer>
   </div>
+  <a href="#" class="btn-scroll-top"><img class="scroll-img"></a>
+  <article class="modal">
+    <section class="background">
+      <img src="img/modal/cat 1.png" alt="">
+      <p class="hi">Thank you!</p>
+      <p class="cont">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <button class="modal_btn">OK! I Love HODU</button>
+    </section>
+  </article>
+  <script src="js/scroll.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/tap.js"></script>
 </body>
 </html>
