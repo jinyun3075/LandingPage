@@ -45,6 +45,7 @@ button {
 .idx-header .nav-list img {
     display: none;
 }
+/* tap */
 
 /* main */
 /* main-top */
@@ -127,8 +128,8 @@ button {
     flex-wrap: wrap;
 }
 .main-bot-two .bot-card img{
-    width: 378px;
-    height: 378px;
+    max-width: 378px;
+    max-height: 378px;
 }
 .main-bot-two .bot-two-mid {
     display: flex;
@@ -308,18 +309,6 @@ button {
     .idx-header .nav-list img {
         display: block;
     }
-    
-    /* menu-tap */
-    .idx-header .menu-tap {
-        display: none;
-        position: fixed;
-        height: 100%;
-        top: 0;
-        right: 0;
-        left: 30%;
-        background: #263140;
-        z-index: 20;
-    }
     .idx-header .menu-tap img {
         position: absolute;
         top: 22px;
@@ -393,7 +382,7 @@ button {
         align-items: flex-end;
     }
     .main-bot-two .bot-two-mid .bot-btn {
-        margin: 30px 0 50px 0;
+        margin: 30px 10px 50px 0;
     }
 
     /* bot-post */
